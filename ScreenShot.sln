@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenShot", "ScreenShot\ScreenShot.csproj", "{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardLibrary", "MouseKeyboardLibrary\MouseKeyboardLibrary.csproj", "{F419622F-4D82-40A6-B4FB-3FE36579F018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32APIMethods", "Win32APIMethods\Win32APIMethods.csproj", "{1414CE37-101D-4865-9A83-744A33C6A145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenShotTests", "ScreenShotTests\ScreenShotTests.csproj", "{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6ED0F3A1-0EFC-4792-A0FA-5043E6207D0B}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ScreenShot.vsmdi = ScreenShot.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Debug|x86.ActiveCfg = Debug|x86
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Debug|x86.Build.0 = Debug|x86
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Release|x86.ActiveCfg = Release|x86
+		{B411EE2F-AD0C-4EAF-A8DE-FB8636D233AE}.Release|x86.Build.0 = Release|x86
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Release|x86.ActiveCfg = Release|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1414CE37-101D-4865-9A83-744A33C6A145}.Release|x86.ActiveCfg = Release|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AED11B02-4306-41B1-ADAF-1E78BB5E0BCA}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D2316A9-FA1A-413B-8D44-C0F36EBF6416}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ScreenShot.vsmdi
+	EndGlobalSection
+EndGlobal
